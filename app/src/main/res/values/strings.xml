@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">firebase-ml-kit-translate</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="swap">Swap</string>
+    <string name="english">English</string>
+    <string name="translate">Translate</string>
+</resources>
