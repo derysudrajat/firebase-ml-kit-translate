@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020. this code made by Dery Sudrajat
+ */
+
 package com.derysudrajat.firebasemlkittranslate
 
 import android.os.Bundle
@@ -55,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             .setTargetLanguage(idTL as Int)
             .build()
         val textTranslator = FirebaseNaturalLanguage.getInstance().getTranslator(option)
-        
+
         // Download model for the first time
         textTranslator.downloadModelIfNeeded()
             .addOnSuccessListener {
